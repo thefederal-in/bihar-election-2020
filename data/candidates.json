@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "sno": 1,
+      "candidatename": "Tejashwi Prasad Yadav",
+      "constituencyname": "Raghopur",
+      "party": "RJD",
+      "leadortrail": "Leading"
+    },
+    {
+      "sno": 2,
+      "candidatename": "Tej Prathap Yadav",
+      "constituencyname": "Hasanpur",
+      "party": "RJD",
+      "leadortrail": "Leading"
+    },
+    {
+      "sno": 3,
+      "candidatename": "Anant Kumar Singh",
+      "constituencyname": "Mokama",
+      "party": "RJD",
+      "leadortrail": "Leading"
+    },
+    {
+      "sno": 4,
+      "candidatename": "Luv Sinha",
+      "constituencyname": "Bankipur",
+      "party": "INC",
+      "leadortrail": "Trailing"
+    },
+    {
+      "sno": 5,
+      "candidatename": "Nand Kishore Yadav",
+      "constituencyname": "Patna Sahib",
+      "party": "BJP",
+      "leadortrail": "Leading"
+    },
+    {
+      "sno": 6,
+      "candidatename": "Jitan Ram Manjhi",
+      "constituencyname": "Imamganj",
+      "party": "HAM",
+      "leadortrail": "Trailing"
+    },
+    {
+      "sno": 7,
+      "candidatename": "Subhashini Sharad Yadav",
+      "constituencyname": "Bihariganj",
+      "party": "INC",
+      "leadortrail": "Trailing"
+    },
+    {
+      "sno": 8,
+      "candidatename": "Shreyasi Singh",
+      "constituencyname": "Jamui",
+      "party": "BJP",
+      "leadortrail": "Leading"
+    },
+    {
+      "sno": 9,
+      "candidatename": "Nitin Naveen",
+      "constituencyname": "Bankipur",
+      "party": "BJP",
+      "leadortrail": "Leading"
+    },
+    {
+      "sno": 10,
+      "candidatename": "Pravin Singh Kushwaha",
+      "constituencyname": "Patna Sahib",
+      "party": "INC",
+      "leadortrail": "Trailing"
+    }
+  ]
+}

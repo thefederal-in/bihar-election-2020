@@ -1,0 +1,44 @@
+{
+  "data": [
+  {
+    "party": "NDA",
+    "leading": 125,
+    "leading%": 51.44032922,
+    "won": 0,
+    "won%": 0,
+    "total": 0
+  },
+  {
+    "party": "RJD+",
+    "leading": 101,
+    "leading%": 41.56378601,
+    "won": 0,
+    "won%": 0,
+    "total": 0
+  },
+  {
+    "party": "LJP",
+    "leading": 5,
+    "leading%": 2.057613169,
+    "won": 0,
+    "won%": 0,
+    "total": 0
+  },
+  {
+    "party": "Others",
+    "leading": 7,
+    "leading%": 2.880658436,
+    "won": 0,
+    "won%": 0,
+    "total": 0
+  },
+  {
+    "party": "Undecided",
+    "leading": 5,
+    "leading%": 2.057613169,
+    "won": 0,
+    "won%": 0,
+    "total": 0
+  }
+]
+}

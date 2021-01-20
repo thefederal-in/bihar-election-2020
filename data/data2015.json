@@ -1,0 +1,2434 @@
+{
+    "data": [
+  {
+    "constituency": "Valmiki Nagar",
+    "constno": 1,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Ramnagar (SC)",
+    "constno": 2,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Narkatiaganj",
+    "constno": 3,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bagaha",
+    "constno": 4,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Lauriya",
+    "constno": 5,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Nautan",
+    "constno": 6,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Chanpatia",
+    "constno": 7,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bettiah",
+    "constno": 8,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sikta",
+    "constno": 9,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Raxaul",
+    "constno": 10,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sugauli",
+    "constno": 11,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Narkatia",
+    "constno": 12,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Harsidhi (SC)",
+    "constno": 13,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Govindganj",
+    "constno": 14,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kesaria",
+    "constno": 15,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kalyanpur",
+    "constno": 16,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Pipra",
+    "constno": 17,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Madhuban",
+    "constno": 18,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Motihari",
+    "constno": 19,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Chiraia",
+    "constno": 20,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Dhaka",
+    "constno": 21,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sheohar",
+    "constno": 22,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Riga",
+    "constno": 23,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bathnaha (SC)",
+    "constno": 24,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Parihar",
+    "constno": 25,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sursand",
+    "constno": 26,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bajpatti",
+    "constno": 27,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sitamarhi",
+    "constno": 28,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Runnisaidpur",
+    "constno": 29,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Belsand",
+    "constno": 30,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Harlakhi",
+    "constno": 31,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Benipatti",
+    "constno": 32,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Khajauli",
+    "constno": 33,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Babubarhi",
+    "constno": 34,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bisfi",
+    "constno": 35,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Madhubani",
+    "constno": 36,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Rajnagar (SC)",
+    "constno": 37,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Jhanjharpur",
+    "constno": 38,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Phulparas",
+    "constno": 39,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Laukaha",
+    "constno": 40,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Nirmali",
+    "constno": 41,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Pipra",
+    "constno": 42,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Supaul",
+    "constno": 43,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Triveniganj (SC)",
+    "constno": 44,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Chhatapur",
+    "constno": 45,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Narpatganj",
+    "constno": 46,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Raniganj (SC)",
+    "constno": 47,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Forbesganj",
+    "constno": 48,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Araria",
+    "constno": 49,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Jokihat",
+    "constno": 50,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sikti",
+    "constno": 51,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bahadurganj",
+    "constno": 52,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Thakurganj",
+    "constno": 53,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kishanganj",
+    "constno": 54,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kochadhaman",
+    "constno": 55,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Amour",
+    "constno": 56,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Baisi",
+    "constno": 57,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kasba",
+    "constno": 58,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Banmankhi (SC)",
+    "constno": 59,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Rupauli",
+    "constno": 60,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Dhamdaha",
+    "constno": 61,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Purnia",
+    "constno": 62,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Katihar",
+    "constno": 63,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kadwa",
+    "constno": 64,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Balrampur",
+    "constno": 65,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Pranpur",
+    "constno": 66,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Manihari (ST)",
+    "constno": 67,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Barari",
+    "constno": 68,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Korha (SC)",
+    "constno": 69,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Alamnagar",
+    "constno": 70,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bihariganj",
+    "constno": 71,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Singheshwar (SC)",
+    "constno": 72,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Madhepura",
+    "constno": 73,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sonbarsha (SC)",
+    "constno": 74,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Saharsa",
+    "constno": 75,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Simri Bakhtiarpur",
+    "constno": 76,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Mahishi",
+    "constno": 77,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kusheshwar Asthan (SC)",
+    "constno": 78,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Gaura Bauram",
+    "constno": 79,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Benipur",
+    "constno": 80,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Alinagar",
+    "constno": 81,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Darbhanga Rural",
+    "constno": 82,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Darbhanga",
+    "constno": 83,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Hayaghat",
+    "constno": 84,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bahadurpur",
+    "constno": 85,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Keoti",
+    "constno": 86,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Jale",
+    "constno": 87,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Gaighat",
+    "constno": 88,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Aurai",
+    "constno": 89,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Minapur",
+    "constno": 90,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bochaha (SC)",
+    "constno": 91,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sakra (SC)",
+    "constno": 92,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kurhani",
+    "constno": 93,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Muzaffarpur",
+    "constno": 94,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kanti",
+    "constno": 95,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Baruraj",
+    "constno": 96,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Paroo",
+    "constno": 97,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sahebganj",
+    "constno": 98,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Baikunthpur",
+    "constno": 99,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Barauli",
+    "constno": 100,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Gopalganj",
+    "constno": 101,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kuchaikote",
+    "constno": 102,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bhorey (SC)",
+    "constno": 103,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Hathua",
+    "constno": 104,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Siwan",
+    "constno": 105,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Ziradei",
+    "constno": 106,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Darauli (SC)",
+    "constno": 107,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Raghunathpur",
+    "constno": 108,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Daraundha",
+    "constno": 109,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Barharia",
+    "constno": 110,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Goriakothi",
+    "constno": 111,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Maharajganj",
+    "constno": 112,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Ekma",
+    "constno": 113,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Manjhi",
+    "constno": 114,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Baniapur",
+    "constno": 115,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Taraiya",
+    "constno": 116,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Marhaura",
+    "constno": 117,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Chapra",
+    "constno": 118,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Garkha (SC)",
+    "constno": 119,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Amnour",
+    "constno": 120,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Parsa",
+    "constno": 121,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sonepur",
+    "constno": 122,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Hajipur",
+    "constno": 123,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Lalganj",
+    "constno": 124,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Vaishali",
+    "constno": 125,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Mahua",
+    "constno": 126,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Raja Pakar (SC)",
+    "constno": 127,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Raghopur",
+    "constno": 128,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Mahnar",
+    "constno": 129,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Patepur (SC)",
+    "constno": 130,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kalyanpur (SC)",
+    "constno": 131,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Warisnagar",
+    "constno": 132,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Samastipur",
+    "constno": 133,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Ujiarpur",
+    "constno": 134,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Morwa",
+    "constno": 135,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sarairanjan",
+    "constno": 136,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Mohiuddinnagar",
+    "constno": 137,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bibhutipur",
+    "constno": 138,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Rosera (SC)",
+    "constno": 139,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Hasanpur",
+    "constno": 140,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Cheria Bariarpur",
+    "constno": 141,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bachhwara",
+    "constno": 142,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Teghra",
+    "constno": 143,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Matihani",
+    "constno": 144,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sahebpur Kamal",
+    "constno": 145,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Begusarai",
+    "constno": 146,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bakhri (SC)",
+    "constno": 147,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Alauli (SC)",
+    "constno": 148,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Khagaria",
+    "constno": 149,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Beldaur",
+    "constno": 150,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Parbatta",
+    "constno": 151,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bihpur",
+    "constno": 152,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Gopalpur",
+    "constno": 153,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Pirpainti (SC)",
+    "constno": 154,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kahalgaon",
+    "constno": 155,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bhagalpur",
+    "constno": 156,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sultanganj",
+    "constno": 157,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Nathnagar",
+    "constno": 158,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Amarpur",
+    "constno": 159,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Dhauraiya (SC)",
+    "constno": 160,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Banka",
+    "constno": 161,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Katoria (ST)",
+    "constno": 162,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Belhar",
+    "constno": 163,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Tarapur",
+    "constno": 164,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Munger",
+    "constno": 165,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Jamalpur",
+    "constno": 166,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Suryagarha",
+    "constno": 167,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Lakhisarai",
+    "constno": 168,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sheikhpura",
+    "constno": 169,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Barbigha",
+    "constno": 170,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Asthawan",
+    "constno": 171,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Biharsharif",
+    "constno": 172,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Rajgir (SC)",
+    "constno": 173,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Islampur",
+    "constno": 174,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Hilsa",
+    "constno": 175,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Nalanda",
+    "constno": 176,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Harnaut",
+    "constno": 177,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Mokama",
+    "constno": 178,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Barh",
+    "constno": 179,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bakhtiarpur",
+    "constno": 180,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Digha",
+    "constno": 181,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bankipur",
+    "constno": 182,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kumhrar",
+    "constno": 183,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Patna Sahib",
+    "constno": 184,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Fatuha",
+    "constno": 185,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Danapur",
+    "constno": 186,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Maner",
+    "constno": 187,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Phulwari (SC)",
+    "constno": 188,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Masaurhi (SC)",
+    "constno": 189,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Paliganj",
+    "constno": 190,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bikram",
+    "constno": 191,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sandesh",
+    "constno": 192,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Barhara",
+    "constno": 193,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Arrah",
+    "constno": 194,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Agiaon (SC)",
+    "constno": 195,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Tarari",
+    "constno": 196,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Jagdishpur",
+    "constno": 197,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Shahpur",
+    "constno": 198,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Brahampur",
+    "constno": 199,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Buxar",
+    "constno": 200,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Dumraon",
+    "constno": 201,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Rajpur (SC)",
+    "constno": 202,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Ramgarh",
+    "constno": 203,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Mohania (SC)",
+    "constno": 204,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bhabua",
+    "constno": 205,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Chainpur",
+    "constno": 206,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Chenari (SC)",
+    "constno": 207,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sasaram",
+    "constno": 208,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kargahar",
+    "constno": 209,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Dinara",
+    "constno": 210,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Nokha",
+    "constno": 211,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Dehri",
+    "constno": 212,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Karakat",
+    "constno": 213,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Arwal",
+    "constno": 214,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kurtha",
+    "constno": 215,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Jehanabad",
+    "constno": 216,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Ghosi",
+    "constno": 217,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Makhadumapur (SC)",
+    "constno": 218,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Goh",
+    "constno": 219,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Obra",
+    "constno": 220,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Nabinagar",
+    "constno": 221,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Kutumba (SC)",
+    "constno": 222,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Aurangabad",
+    "constno": 223,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Rafiganj",
+    "constno": 224,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Gurua",
+    "constno": 225,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sherghati",
+    "constno": 226,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Imamganj (SC)",
+    "constno": 227,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Barachatti (SC)",
+    "constno": 228,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Bodh Gaya (SC)",
+    "constno": 229,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Gaya Town",
+    "constno": 230,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Tikari",
+    "constno": 231,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Belaganj",
+    "constno": 232,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Atri",
+    "constno": 233,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Wazirganj",
+    "constno": 234,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Rajauli (SC)",
+    "constno": 235,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Hisua",
+    "constno": 236,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Nawada",
+    "constno": 237,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Gobindpur",
+    "constno": 238,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Warsaliganj",
+    "constno": 239,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Sikandra (SC)",
+    "constno": 240,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Jamui",
+    "constno": 241,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Jhajha",
+    "constno": 242,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  },
+  {
+    "constituency": "Chakai",
+    "constno": 243,
+    "leadingCandidate": "",
+    "leadingParty": "",
+    "trailingCandidate": "",
+    "trailingParty": "",
+    "margin": "",
+    "status": "Result in Progress"
+  }
+]
+  }
