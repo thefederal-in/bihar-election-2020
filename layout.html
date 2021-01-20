@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="css/bootstrap-fullscreen-select.css">
+</head>
+<body>
+    <div class="tf-interactive-wrap">
+        <header class="marBot20">
+            <h1><span>Bihar</span><span>Election</span><span>2020</span></h1>
+            <hr>
+            <p><span>Phase-III:</span> 78 seats</p>
+            <p class="lastupdatedtext">Last updated: <span id="lastupdated"></span></p>
+        </header>
+        <div class="tf-constinfo marBot20">
+            <div class="asmap" id="bihar">
+            </div>
+            <div class="constvoterturnout">
+                <select name="" id="constlist" onchange="showConstData()" class="marBot20">
+                    <option value="#">Phase-III</option>
+                </select>
+                <h2>Current voter turnout</h2>
+                <div class="startertext">Data yet to be updated</div>
+                <div class="turnout-chart"></div>
+            </div>
+            <div class="metaconstinfo marBot20">
+                <div class="constpoints">
+                    Total electorate (2020)
+                    <span id="tot-electorate"></span>
+                </div>
+                <div class="constpoints">
+                    Voter turnout (2015)
+                    <span id="voter-turnout-2015"></span>
+                </div>
+                <div class="constpoints bordTop">
+                    Total voter turnout <small>(Phase III)</small>
+                    <span id="voter-turnout-2020"></span>
+                </div>
+            </div>
+        </div>
+        <div class="tf-candinfo">
+            <div class="candheader">
+                <h2>Key Candidate</h2>
+                <select name="" id="key-cand" onchange="showCandData()" class="marBot20">
+                    <option value="#">Phase-III</option>
+                </select>
+            </div>
+           <div class="candinfocol">
+                <div class="candpic">
+                </div> 
+                <div class="metacandinfo">
+
+                    <div class="candrow1">
+                        <div class="candpoints">
+                            Name 
+                            <span id="cand-name"> </span>
+                        </div>
+                        
+                        <div class="candpoints">
+                            Party 
+                            <span id="cand-party"> </span>
+                        </div>
+
+                        <div class="candpoints">
+                            Age 
+                            <span id="cand-age"> </span>
+                        </div>
+                    </div>
+                    <div class="candrow2">
+                        <div class="candpoints">
+                            Constituency 
+                            <span id="cand-const"> </span>
+                        </div>
+                        <div class="candpoints">
+                            Declared Networth 
+                            <span id="cand-networth"> </span>
+                        </div>
+                    </div>
+                    <div class="candrow3">
+                        <div class="candpoints">
+                            Total cases 
+                            <span id="cand-totcases"> </span>
+                        </div>
+                        <div class="candpoints">
+                            Education 
+                            <span id="cand-edu"></span>
+                        </div>
+                    </div>
+    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="js/underscore-min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/piechart.js"></script>
+    <script src="js/bootstrap-fullscreen-select.js"></script>
+    <script>
+
+        var data2020 = (function () {
+            var data2020 = null;
+            jQuery.ajax({
+                'async': false,
+                'global': false,
+                'url': 'map/data.json',
+                'dataType': "json",
+                'success': function (data) {
+                    data2020 = data;
+                }
+            });
+            return data2020;
+        })(); 
+       
+        var data2020api = (function () {
+            var data2020api = null;
+            jQuery.ajax({
+                'async': false,
+                'global': false,
+                'url': 'https://script.google.com/macros/s/AKfycbwhN5oHyCSyPdvs79UCj9UH9LxtVh22GvwUefPgocEv0h7oar4/exec',
+                'dataType': "json",
+                'success': function (data) {
+                    data2020api = data;
+                }
+            });
+            return data2020api;
+        })(); 
+        
+        console.log("data2020api", data2020api.totaldata[0].lastupdated )
+
+        var defaultconst = 70
+
+
+        let dataforpie = [];
+
+        data2020api.phasedata.forEach(element => {
+            // console.log(element);
+            dataforpie.push( {
+                id: element['constNo'],
+                text: 'actual turn out',
+                voterturnout: element['voterturnout(%)']
+            }); 
+            
+            dataforpie.push( {
+                id: element['constNo'],
+                text: 'difference turn out',
+                voterturnout: element['difference(%)']
+            }); 
+        });
+
+        // console.log("dataforpie", dataforpie);
+
+
+        function filterpiedatastatewise(statecode){
+            return dataforpie.filter(function(d){
+                return d['id'] === statecode;
+            })
+        }
+
+        function filtercanddata(statecode){
+
+            return data2020.candidateInfo.filter(function(d){
+                return d['phase'] === statecode;
+            })
+        }
+        function filterConstdata(statecode){
+
+            return data2020api.phasedata.filter(function(d){
+                return d['phase'] === statecode;
+            })
+        }
+        function filterConstDefaultdata(statecode){
+            return data2020api.phasedata.filter(function(d){
+                return d['constNo'] === statecode;
+            })
+        }
+
+        function showConstData(){
+            var selectedValue = $('#constlist option:selected').attr("data-id");
+            console.log(parseInt(selectedValue));
+            $(".biharmap path").removeClass("active");
+            d3.select(".const"+selectedValue).classed("active", "true")
+            drawPiechart('.turnout-chart', filterpiedatastatewise(parseInt(selectedValue)));
+            var fd =  data2020api.phasedata.filter(function(d){
+                return d['constNo'] === parseInt(selectedValue);
+            })
+            console.log(fd[0].totalElectorate);
+
+            d3.select("#tot-electorate").text(fd[0].totalElectorate.toLocaleString('en-IN'));
+            d3.select("#voter-turnout-2015").html(fd[0]['voterturnout(2015)'].toLocaleString('en-IN') + "<small>("+fd[0]["voterturnout(2015%)"]+"%)</small");
+        }
+        function showCandData(){
+            var selectedValue = $('#key-cand option:selected').attr("data-id");
+            console.log(selectedValue);
+            var fd =  data2020.candidateInfo.filter(function(d){
+                return d['candidate'] === selectedValue;
+            })
+            console.log(fd);
+            fillCandDetails(fd[0])
+            // drawPiechart('.turnout-chart', filterpiedatastatewise(parseInt(selectedValue)));
+            // d3.select("#tot-electorate").text(details['candidate']);
+        }
+
+        function fillCandDetails(details){
+            console.log(details)
+
+            d3.select("#cand-name").text(details['candidate']);
+            d3.select("#cand-party").text(details['party']);
+            d3.select("#cand-age").text(details['age']);
+            d3.select("#cand-const").text(details['constituency']);
+            d3.select("#cand-networth").text(details['networth']);
+            d3.select("#cand-totcases").text(details['totalCases']);
+            d3.select("#cand-edu").text(details['education']);
+            d3.select(".candpic").html('<img src="img/'+details['candidate'].replace(/\s+/g, '-')+'.png" alt="">');
+        }
+
+        // create dropdown for PhaseI constituency
+
+        function createDropDowns(selector, dropdowndata, valuelabel, contentlabel, type){
+            console.log("dropdowndata", dropdowndata);
+            var select = d3.select(selector)
+            select.html(null);
+            var options = select.selectAll('option')
+                    .data(dropdowndata).enter()
+                    .append('option')
+                    .attr("value", function (d) { 
+                        return d[contentlabel]; 
+                    })
+                    .attr("data-id", function (d) { 
+                        return d[valuelabel]; 
+                    })
+                    .text(function (d) { 
+                        return d[contentlabel]; 
+                    })
+                    if ( $(window).width() < 767 ) {
+                        if(selector == "#constlist") {
+                            $('#constlist').mobileSelect({	
+                                    onClose: function(){
+                                        showConstData();
+                                    }
+                                });
+                        }
+
+                        if(selector == "#key-cand") {
+                            $('#key-cand').mobileSelect({	
+                                    onClose: function(){
+                                        showCandData();
+                                    }
+                                });
+                        }
+                    }
+
+        }
+
+
+
+        // create dropdown for PhaseI Key Candidate
+
+
+
+        phase_i = [155, 157, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 178, 179, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243]
+        phase_ii = [6, 7, 8, 13, 14, 15, 16, 17, 18, 28, 29, 30, 36, 37, 38, 39, 78, 79, 80, 81, 82, 90, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 127, 128, 129, 134, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 156, 158, 171, 172, 173, 174, 175, 176, 177, 180, 181, 182, 183, 184, 185, 186, 187, 188]
+        phase_iii = [1,2,3,4,5,9,10,11,12,19,20,21,22,23,24,25,26,27,31,32,33,34,35,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,83,84,85,86,87,88,89,91,92,93,94,126,130,131,132,133,135,136]
+
+        // Generate Bihar Map with phasewise colors
+        mapfunction("#bihar")
+
+
+
+        // Default PieChart Voterturnout
+        // console.log(filterConstDefaultdata(215)[0]);
+        d3.select("#tot-electorate").text(filterConstDefaultdata(defaultconst)[0].totalElectorate.toLocaleString('en-IN'));
+        d3.select("#voter-turnout-2015").html(filterConstDefaultdata(defaultconst)[0]['voterturnout(2015)'].toLocaleString('en-IN')+ " <small>("+filterConstDefaultdata(defaultconst)[0]["voterturnout(2015%)"]+"%)</small");
+        d3.select("#voter-turnout-2020").html(data2020api.totaldata[0]['overallupdate(%)']+"%");
+        drawPiechart('.turnout-chart', filterpiedatastatewise(defaultconst));
+        
+        d3.select("#lastupdated").text(data2020api.totaldata[0].lastupdated);
+
+
+        // Default candidate display
+        fillCandDetails(filtercanddata("Phase III")[0])
+
+        createDropDowns("#constlist", filterConstdata("Phase III"), "constNo", "constituency", "type")
+
+        createDropDowns("#key-cand", data2020.candidateInfo, "candidate", "candidate", "type")
+
+       
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="650" >
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://thefederal.com/embed/bihar-election-2020/dashboard.css">
+    <link rel="stylesheet" href="https://thefederal.com/embed/bihar-election-2020/css/bootstrap-fullscreen-select.css">
+    <style>
+        .whole_wrap {
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+            display: block;
+            overflow: hidden;
+            padding: 20px;
+            box-sizing: border-box;
+            /* height: 450px */
+        }
+        #current-leading-party .bar {
+            height: 35px;
+            line-height: 37px;
+            padding: 0px 18px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        #current-leading-party .bartext {
+            padding: 0px 18px;
+        }
+        .tf-maincontent__geographic {
+            margin-top: 30px;
+        }
+        .asmap {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .mapmodel {
+            max-width: 500px;
+            /* margin: 0 auto; */
+        }
+        .candidates-list{
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            column-gap: 20px;
+        }
+
+        .candidates-list li{
+            display: grid;
+            grid-template-columns: 15% 85%;
+            height: 65px;
+            /* background-color: #e8e8e8; */
+            margin-bottom: 10px;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+        }
+        .candidates-list li img{
+            width: 50px;
+
+        }
+
+        .candidates-list li .li-meta{
+            display: grid;
+            grid-template-columns: 60% 40%;
+        }
+
+        .candidates-list li .licol{
+            padding-left: 20px;
+            font-size: 13px;
+        }
+
+        .candidates-list li .licol p:last-child{
+            font-style: italic;
+            color: #999;
+        }
+
+        .candidates-list li .leadortrail{
+            font-weight: bold;
+        }
+
+        .candidates-list li .leadortrail.Leading, .candidates-list li .leadortrail.Won{
+            color: green;
+        }
+
+        .candidates-list li .leadortrail.Trailing{
+            color: orange;
+        }
+
+        .candidates-list-section h2{
+            text-align: center;
+            margin-bottom: 0;
+        }
+        #partywise-voteshare{
+            margin-bottom: 35px;
+            margin-top: 10px;
+        }
+
+        #partywise-voteshare .bar {
+            height: 35px;
+            line-height: 37px;
+            padding: 0px 18px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        #partywise-voteshare .bar:first-child {
+        -webkit-border-top-left-radius: 30px;
+        -webkit-border-bottom-left-radius: 30px;
+        -moz-border-radius-topleft: 30px;
+        -moz-border-radius-bottomleft: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        }
+        #partywise-voteshare .bar:last-child {
+        -webkit-border-top-right-radius: 30px;
+        -webkit-border-bottom-right-radius: 30px;
+        -moz-border-radius-topright: 30px;
+        -moz-border-radius-bottomright: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        }
+        @media screen and (max-width: 480px) {
+            .asmap {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="whole_wrap">
+        <section class="tf-maincontent__overallparty">
+            <div class="tf-overallparty__main">
+                <div id="current-leading-party"></div> 
+            </div> 
+        </section>
+        <section class="tf-maincontent__geographic">
+            <div class="tf-maincontent__row twocol">
+                <div class="tf-maincontent__column maparea">
+                    <select name="" id="constlist" onchange="showConstData()">
+                        <option value="">Select Constituency</option>
+                    </select>
+                    <div class="asmap" id="bihar"></div>
+                </div>
+                <div class="tf-maincontent__column mapmodel">
+                    <div class="map-content-box">
+                        <h3 id="constName"></h3>
+                        <div class="map-content__point">
+                            <div>
+                                <p><span class="winorlead">Leading candidate </span><br> <span id="leadCandName"></span></p>
+                                <p><span class="winorlead">Leading Margin </span><br> <span id="leadMargin"></span></p>
+                            </div>
+                            <div class="leadingparty" id="leadParty">
+                            </div>
+                        </div>
+                        <div class="map-content__point">
+                            <p><span class="trailCand">Trailing candidate</span> <br> <span id="trailCandName"></span></p>
+                            <div class="leadingparty" id="trailParty">
+                                
+                            </div>
+                        </div>
+                        <div class="nodatamessage" style="display: none;">
+                            Data Yet to Be updated
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tf-maincontent__voteshare">
+            <h2>Partywise Voteshare</h2>
+            <div class="tf-voteshare__main">
+                <div id="partywise-voteshare"></div> 
+            </div> 
+        </section>
+        <section class="candidates-list-section">
+            <h2>Key Candidates</h2>
+            <ul class="candidates-list">
+                
+            </ul>
+        </section>
+    </div>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://thefederal.com/embed/bihar-election-2020/js/d3.v4.min.js"></script>
+    <script src="https://thefederal.com/embed/bihar-election-2020/js/topojson.v2.min.js"></script>
+    <script src="https://thefederal.com/embed/bihar-election-2020/js/d3-tip.js"></script>
+    <script src="https://thefederal.com/embed/bihar-election-2020/js/utility.js?v=757"></script>
+    <script src="https://thefederal.com/embed/bihar-election-2020/js/horstackchart.js?v=55"></script>
+    <script src="https://thefederal.com/embed/bihar-election-2020/js/map-function.js"></script>
+    <script type="text/javascript">
+        var defaultconst = 41;
+        var defaultconstname = "Nirmali";
+        var party2020 = (function () {
+            var party2020 = null;
+            jQuery.ajax({
+                'async': false,
+                'global': false,
+                'url': 'https://script.googleusercontent.com/macros/echo?user_content_key=v7c1q29ZTXXSv0g1xg-5Cix25HNbZ2KDgJ1cHfxgKBH_TFDpeKO7g99bwSsAM3HaO387gOYr1RahBMkA05lYDQZeKpXmg2jEm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnFfrGawhJeYBtiXMH658RxHQFZSRQXvR_VMXu42PUngwAgJVCa_sMph6TL9IdGq1_RdIug5zkO6q&lib=MJm7Yi8Bdr_FjGR3jSxkJ4YYOidlTg8Sh',
+                'dataType': "json",
+                'success': function (data) {
+                    party2020 = data;
+                }
+            });
+            return party2020;
+        })();
+        var data2020 = (function () {
+            var data2020 = null;
+            jQuery.ajax({
+                'async': false,
+                'global': false,
+                'url': 'https://thefederal.com/api/scraper.php?m=election2020&t=constituency',
+                'dataType': "json",
+                'success': function (data) {
+                    data2020 = data;
+                }
+            });
+            
+            return data2020;
+        })();
+        var candidates2020 = (function () {
+            var candidates2020 = null;
+            jQuery.ajax({
+                'async': false,
+                'global': false,
+                'url': 'https://script.googleusercontent.com/macros/echo?user_content_key=LmlYh-pMFg5rTQzkiqPYAuOhGrD0M58rm44FXk2WVopXymdOUb2wxIu2OQDNm-xX6vmhrQFpYZqFoXvv-Br7iFq99iaoPqyKm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnFfrGawhJeYBtiXMH658RxHQFZSRQXvR_VMXu42PUngwAgJVCa_sMph6TL9IdGq1_RdIug5zkO6q&lib=MJm7Yi8Bdr_FjGR3jSxkJ4YYOidlTg8Sh',
+                'dataType': "json",
+                'success': function (data) {
+                    candidates2020 = data;
+                }
+            });
+            
+            return candidates2020;
+        })();
+        // var data2020 = (function () {
+        //     var data2020 = null;
+        //     jQuery.ajax({
+        //         'async': false,
+        //         'global': false,
+        //         'url': 'data/data2015.json',
+        //         'dataType': "json",
+        //         'success': function (data) {
+        //             data2020 = data;
+        //         }
+        //     });
+        //     return data2020;
+        // })();
+        var partyAbbrList = {
+            "All India Majlis-E-Ittehadul Muslimeen" : "AIMIM",
+            "Bharatiya Janata Party":"BJP",
+            "Aam Aadmi Party":"AAP",
+            "Lok Jan Shakti Party": "LJP",
+            "Rashtriya Lok Samta Party": "RLSP",
+            "Hindustani Awam Morcha (Secular)":	"HAM",
+            "Communist Party of India  (Marxist-Leninist)  (Liberation)": "CPI (L)",	
+            "Socialist Unity Centre Of India (COMMUNIST)": "SUCOI",
+            "Communist Party of India  (Marxist)": "CPI (M)",
+            "Vikassheel Insaan Party": "VIP",
+            "Communist Party of India": "CPI",
+            "Rashtriya Janata Dal": "RJD",
+            "Bahujan Samaj Party": "BSP",
+            "Janata Dal (United)": "JDU",
+            "Janta Dal (United)": "JDU",
+            "Indian National Congress":	"INC",
+            "Independent": "IND",
+            "NDA" : "NDA",
+            "UPA" : "UPA",
+            "RJD+" : "RJD+",
+            "RJD" : "RJD",
+            "Others" : "Others",
+            "LJP" : "LJP",
+            "Undecided": "Undecided"
+        }
+
+        var partycolors = {
+            "AIMIM" : "#CCCCCC",
+            "NDA" : "#ff9900",
+            "UPA" : "#27ae60",
+            "Others" : "#cccccc",
+            "RJD" : "#2ecc71",
+            "RJD+" : "#27ae60",
+            "BJP": "#FF9900",
+            "LJP": "#9b59b6",
+            "RJD": "#2ecc71",
+            "HAM": "#CCCCCC",
+            "CPI (L)": "#CCCCCC",
+            "SUCOI": "#CCCCCC",
+            "CPI (M)": "#CCCCCC",
+            "CPI": "#CCCCCC",
+            "RJD": "#2ecc71",
+            "JD(U)": "#1abc9c",
+            "JDU": "#1abc9c",
+            "INC": "#3498db",
+            "IND": "#CCCCCC",
+            "RLSP": "#CCCCCC",
+            "AAP": "#CCCCCC",
+            "BSP": "#CCCCCC",
+            "VIP": "#CCCCCC",
+            "Others": "#CCCCCC",
+            "Undecided": "#e8e8e8"
+        }
+        var currLeadData =  [
+            {
+            "party": "RJD",
+            "won": 80,
+            "won%": 18.8
+            },
+            {
+            "party": "JD(U)",
+            "won": 71,
+            "won%": 17.3
+            },
+            {
+            "party": "BJP",
+            "won": 53,
+            "won%": 25
+            },
+            {
+            "party": "INC",
+            "won": 27,
+            "won%": 6.8
+            },
+            {
+            "party": "Others",
+            "won": 12,
+            "won%": 32.1
+            }
+        ]
+        
+        drawHorizontalStackChart("#current-leading-party", party2020.partywisetop, {
+            width: 800,
+            height: 60,
+            margin: { top: 25, bottom: 25, left: 0, right: 0 },
+            cutoff: 20,
+            type: "CurrentLeadCand",
+            textLabel: 'party',
+            numberLabel: 'leading%',
+            displayLabel: 'leading'
+        });
+        drawHorizontalStackChart("#partywise-voteshare", party2020.votesharefinal, {
+            width: 800,
+            height: 60,
+            margin: { top: 25, bottom: 25, left: 0, right: 0 },
+            cutoff: 20,
+            type: "CurrentLeadCand",
+            textLabel: 'party',
+            numberLabel: 'voteshare2020',
+            displayLabel: 'voteshare2020'
+        });
+        // drawHorizontalStackChart("#education-charts", currLeadData, {
+        //     width: 800,
+        //     height: 60,
+        //     margin: { top: 25, bottom: 25, left: 0, right: 0 },
+        //     cutoff: 20,
+        //     type: "CurrentLeadCand",
+        //     textLabel: 'party',
+        //     numberLabel: 'lead%',
+        //     displayLabel: 'lead'
+        // });
+        // drawHorizontalStackChart("#criminal-charts", currLeadData, {
+        //     width: 800,
+        //     height: 60,
+        //     margin: { top: 25, bottom: 25, left: 0, right: 0 },
+        //     cutoff: 20,
+        //     type: "CurrentLeadCand",
+        //     textLabel: 'party',
+        //     numberLabel: 'lead%',
+        //     displayLabel: 'lead'
+        // });
+        // drawHorizontalStackChart("#netasset-charts", currLeadData, {
+        //     width: 800,
+        //     height: 60,
+        //     margin: { top: 25, bottom: 25, left: 0, right: 0 },
+        //     cutoff: 20,
+        //     type: "CurrentLeadCand",
+        //     textLabel: 'party',
+        //     numberLabel: 'lead%',
+        //     displayLabel: 'lead'
+        // });
+        // drawHorizontalStackChart("#religion-charts", currLeadData, {
+        //     width: 800,
+        //     height: 60,
+        //     margin: { top: 25, bottom: 25, left: 0, right: 0 },
+        //     cutoff: 20,
+        //     type: "CurrentLeadCand",
+        //     textLabel: 'party',
+        //     numberLabel: 'lead%',
+        //     displayLabel: 'lead'
+        // });
+        // drawHorizontalStackChart("#gender-charts", currLeadData, {
+        //     width: 800,
+        //     height: 60,
+        //     margin: { top: 25, bottom: 25, left: 0, right: 0 },
+        //     cutoff: 20,
+        //     type: "CurrentLeadCand",
+        //     textLabel: 'party',
+        //     numberLabel: 'lead%',
+        //     displayLabel: 'lead'
+        // });
+        
+        mapfunction("#bihar");
+
+        // var fdefault = data2020['data'].filter(function(obj){
+        //     return obj.constno === defaultconst;
+        // })
+
+        feedData(data2020['data'], defaultconst, defaultconstname);
+        drawCandList(candidates2020.top10leadingcandidates);
+    </script>
+</body>
+</html>

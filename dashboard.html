@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bihar assembly election 2020</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="tf-election__wrapper">
+        <header class="tf-election__header">
+            <h1><span>Bihar</span><br>assembly election 2020</h1>
+            <p>Last updated: <span id="lastupdated">Nov 4, 2020, 9:15. AM IST</span></p>
+        </header>
+        <main class="tf-election__maincontent">
+            <section class="tf-maincontent__overallparty">
+                <h2>Leading parties</h2>
+                <div class="tf-overallparty__main">
+                    <div id="current-leading-party"></div> 
+                </div> 
+            </section>
+            <section class="tf-maincontent__geographic">
+                <h2>Geographic Data</h2>
+                <div class="tf-maincontent__row twocol">
+                    <div class="tf-maincontent__column maparea">
+                        <select name="" id="constlist" onchange="showConstData()">
+                            <option value="">Select Constituency</option>
+                        </select>
+                        <div class="asmap" id="bihar"></div>
+                    </div>
+                    <div class="tf-maincontent__column mapmodel">
+                        <div class="map-content-box">
+                            <h3 id="constName">Bankipur <span>counting</span></h3>
+                            <div class="map-content__point">
+                                <div>
+                                    <p><span id="winorlead">Leading</span> candidate <br> <span id="leadCandName">Himanshu Prasad Alias Himanshu Kumar</span></p>
+                                    <p><span>Leading</span> Margin <br> <span id="leadMargin">4,79,505</span></p>
+                                </div>
+                                <div class="leadingparty" id="leadParty">
+                                    <img src="img/parties/bjp.svg" alt="">
+                                    BJP
+                                </div>
+                            </div>
+                            <div class="map-content__point">
+                                <p><span>Trailing</span> candidate <br> <span id="trailCandName">Shalini Yadav</span></p>
+                                <div class="leadingparty" id="trailParty">
+                                    <img src="img/parties/bjp.svg" alt="">
+                                    INC
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tf-maincontent__row fourcol" style="display: none;">
+                    <div class="tf-maincontent__column">
+                        <h3>Religious Breakup</h3>
+                        <div id="religion-charts"></div>  
+                    </div>
+                    <div class="tf-maincontent__column">
+                        <h3>Criminal cases</h3>
+                        <div id="gender-charts"></div>  
+                    </div>
+                    <div class="tf-maincontent__column">
+                        <h3>Net Assets</h3>
+                        <div id="turnout-charts">50.8 <span>%</span></div>  
+                    </div>
+                    <div class="tf-maincontent__column">
+                        <h3>Net Assets</h3>
+                        <div id="literacyrate-charts">50.8 <span>%</span></div>  
+                    </div>
+                </div>
+            </section>
+            <section class="tf-maincontent__overallcandidate">
+                <h2>over all Candidates analysis</h2>
+                <div class="tf-maincontent__row">
+                    <div class="tf-maincontent__column">
+                        <h3>Education categories</h3>
+                        <div id="education-charts"></div>  
+                    </div>
+                    <div class="tf-maincontent__column">
+                        <h3>Criminal cases</h3>
+                        <div id="criminal-charts"></div>  
+                    </div>
+                    <div class="tf-maincontent__column">
+                        <h3>Net Assets</h3>
+                        <div id="netasset-charts"></div>  
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/d3.v4.min.js"></script>
+    <!-- <script src="https://d3js.org/topojson.v2.min.js"></script> -->
+    <script src="js/topojson.v2.min.js"></script>
+    <script src="js/d3-tip.js"></script>
+    <script src="js/utility.js"></script>
+    <script src="js/horstackchart.js"></script>
+    <script src="js/map-function.js"></script>
+    <script type="text/javascript">
+        var defaultconst = 1;
+
+        var partyAbbrList = {
+            "Bharatiya Janta Party":"BJP",
+            "Lok Jan Shakti Party": "LJP",
+            "Rashtriya Lok Samta Party": "RJD",
+            "Hindustani Awam Morcha (Secular)":	"HAM",
+            "Communist Party Of India (Marxist-Leninist) (Liberation)": "CPI (L)",	
+            "Socialist Unity Centre Of India (COMMUNIST)": "SUCOI",
+            "Communist Party Of India (MARXIST)": "CPI (M)",
+            "Communist Party Of India": "CPI",
+            "Rashtriya Janata Dal": "RJD",
+            "Janata Dal (United)": "JDU",
+            "Indian National Congress":	"INC",
+            "Independent": "IND"
+        }
+
+        var partycolors = {
+            "BJP": "#FF9900",
+            "LJP": "#9b59b6",
+            "RJD": "#2ecc71",
+            "HAM": "#CCCCCC",
+            "CPI (L)": "#CCCCCC",
+            "SUCOI": "#CCCCCC",
+            "CPI (M)": "#CCCCCC",
+            "CPI": "#CCCCCC",
+            "RJD": "#2ecc71",
+            "JD(U)": "#1abc9c",
+            "JDU": "#1abc9c",
+            "INC": "#3498db",
+            "IND": "#CCCCCC",
+            "Others": "#CCCCCC"
+        }
+
+        phase_iii = [1,2,3,4,5,9,10,11,12,19,20,21,22,23,24,25,26,27,31,32,33,34,35,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,83,84,85,86,87,88,89,91,92,93,94,126,130,131,132,133,135,136]
+        
+        var currLeadData =  [
+            {
+            "Party": "RJD",
+            "lead": 80,
+            "lead%": 18.8
+            },
+            {
+            "Party": "JD(U)",
+            "lead": 71,
+            "lead%": 17.3
+            },
+            {
+            "Party": "BJP",
+            "lead": 53,
+            "lead%": 25
+            },
+            {
+            "Party": "INC",
+            "lead": 27,
+            "lead%": 6.8
+            },
+            {
+            "Party": "Others",
+            "lead": 12,
+            "lead%": 32.1
+            }
+        ]
+
+        var data2020 = (function () {
+            var data2020 = null;
+            jQuery.ajax({
+                'async': false,
+                'global': false,
+                'url': 'data/data2015.json',
+                'dataType': "json",
+                'success': function (data) {
+                    data2020 = data;
+                }
+            });
+            return data2020;
+        })();
+        
+        drawHorizontalStackChart("#current-leading-party", currLeadData, {
+            width: 800,
+            height: 60,
+            margin: { top: 25, bottom: 25, left: 0, right: 0 },
+            cutoff: 20,
+            type: "CurrentLeadCand",
+            textLabel: 'party',
+            numberLabel: 'lead%',
+            displayLabel: 'lead'
+        });
+        
+        drawHorizontalStackChart("#education-charts", currLeadData, {
+            width: 800,
+            height: 60,
+            margin: { top: 25, bottom: 25, left: 0, right: 0 },
+            cutoff: 20,
+            type: "CurrentLeadCand",
+            textLabel: 'party',
+            numberLabel: 'lead%',
+            displayLabel: 'lead'
+        });
+        drawHorizontalStackChart("#criminal-charts", currLeadData, {
+            width: 800,
+            height: 60,
+            margin: { top: 25, bottom: 25, left: 0, right: 0 },
+            cutoff: 20,
+            type: "CurrentLeadCand",
+            textLabel: 'party',
+            numberLabel: 'lead%',
+            displayLabel: 'lead'
+        });
+        drawHorizontalStackChart("#netasset-charts", currLeadData, {
+            width: 800,
+            height: 60,
+            margin: { top: 25, bottom: 25, left: 0, right: 0 },
+            cutoff: 20,
+            type: "CurrentLeadCand",
+            textLabel: 'party',
+            numberLabel: 'lead%',
+            displayLabel: 'lead'
+        });
+        // drawHorizontalStackChart("#religion-charts", currLeadData, {
+        //     width: 800,
+        //     height: 60,
+        //     margin: { top: 25, bottom: 25, left: 0, right: 0 },
+        //     cutoff: 20,
+        //     type: "CurrentLeadCand",
+        //     textLabel: 'party',
+        //     numberLabel: 'lead%',
+        //     displayLabel: 'lead'
+        // });
+        // drawHorizontalStackChart("#gender-charts", currLeadData, {
+        //     width: 800,
+        //     height: 60,
+        //     margin: { top: 25, bottom: 25, left: 0, right: 0 },
+        //     cutoff: 20,
+        //     type: "CurrentLeadCand",
+        //     textLabel: 'party',
+        //     numberLabel: 'lead%',
+        //     displayLabel: 'lead'
+        // });
+        
+        mapfunction("#bihar");
+
+        feedData(data2020['2015'], defaultconst);
+    </script>
+</body>
+</html>

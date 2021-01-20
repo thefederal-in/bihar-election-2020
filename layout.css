@@ -1,0 +1,287 @@
+.tf-interactive-wrap * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+/* svg {
+  background-color: #f8f8f8;
+} */
+
+.tf-interactive-wrap {
+  /* background-image: url("img/Trace.jpeg"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0;
+  /* border: 1px solid #ccc; */
+  height: auto;
+  width: 100vw;
+  margin: 0;
+  max-width: 1400px;
+  box-sizing: border-box;
+}
+
+.tf-interactive-wrap header {
+  text-align: center;
+  padding: 20px;
+}
+.tf-interactive-wrap header h1 {
+  text-transform: uppercase;
+  line-height: 0.7;
+  margin-bottom: 20px;
+}
+.tf-interactive-wrap header p span {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.tf-interactive-wrap header hr {
+  margin: 18px auto 10px auto;
+  width: 50%;
+  text-align: center;
+}
+.tf-interactive-wrap header h1 span:nth-child(1) {
+  font-size: 46px;
+  font-weight: 800;
+  display: block;
+}
+.tf-interactive-wrap header h1 span:nth-child(2) {
+  font-size: 32px;
+  font-weight: 400;
+  padding-left: 2px;
+  display: block;
+}
+.tf-interactive-wrap header h1 span:nth-child(3) {
+  font-size: 56px;
+  font-weight: 800;
+  font-style: italic;
+  display: block;
+}
+.tf-interactive-wrap .candpic img {
+  width: 85%;
+}
+.tf-interactive-wrap select {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.tf-interactive-wrap .tf-constinfo .constpoints {
+  color: #9a9a9a;
+  font-weight: 800;
+  line-height: 20px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.tf-interactive-wrap .tf-constinfo .constpoints span {
+  color: #000;
+  font-weight: 400;
+  font-size: 30px;
+  display: block;
+  line-height: 28px;
+  margin-top: 5px;
+}
+.tf-interactive-wrap .tf-constinfo .constpoints span small {
+  font-size: 20px;
+}
+
+.candheader h2 {
+  background-color: #bb0501;
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  font-size: 18px;
+  width: fit-content;
+  padding: 4px 8px;
+  font-weight: 600;
+}
+
+.marBot20 {
+  margin-bottom: 20px;
+}
+
+.tf-interactive-wrap .tf-candinfo .candpoints {
+  color: #9a9a9a;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+.tf-interactive-wrap .tf-candinfo .candpoints span {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  display: block;
+}
+
+.btn-mobileSelect-gen {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.mobileSelect-control {
+  color: #fff;
+}
+
+.biharmap .active {
+  fill: red;
+}
+
+.constvoterturnout {
+  position: relative;
+}
+.startertext {
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.lastupdatedtext {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.bordTop {
+  border-top: 1px solid #000;
+  padding-top: 10px;
+}
+
+@media (max-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+}
+@media (max-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  .tf-interactive-wrap {
+    /* background-image: url("img/Trace.jpeg"); */
+    padding: 10px 20px;
+  }
+
+  .candheader h2 {
+    text-align: center;
+    margin: 15px auto;
+  }
+
+  .tf-interactive-wrap .tf-candinfo .candrow1 .candpoints,
+  .tf-interactive-wrap .tf-candinfo .candrow2 .candpoints,
+  .tf-interactive-wrap .tf-candinfo .candrow3 .candpoints {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .tf-interactive-wrap .metaconstinfo .constpoints {
+    display: inline-block;
+    margin-right: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .tf-interactive-wrap header.marBot20 {
+    margin-bottom: -10px;
+  }
+
+  .tf-interactive-wrap .tf-constinfo .metaconstinfo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 20px;
+  }
+
+  .startertext {
+    top: 170px;
+    text-align: center;
+  }
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+@media (min-width: 801px) {
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .tf-interactive-wrap {
+    display: flex;
+    height: 215px;
+  }
+
+  .tf-interactive-wrap header {
+    width: 10%;
+    padding: 25px 0;
+  }
+
+  .tf-interactive-wrap .tf-constinfo {
+    width: 57%;
+    display: flex;
+    padding: 15px 15px;
+    column-gap: 10px;
+  }
+
+  .tf-interactive-wrap .tf-constinfo .asmap {
+    width: 40%;
+  }
+  .tf-interactive-wrap .tf-constinfo .metaconstinfo {
+    width: 30%;
+    margin-left: 20px;
+  }
+  .tf-interactive-wrap .tf-constinfo .constvoterturnout {
+    width: 33%;
+    text-align: center;
+  }
+  .tf-interactive-wrap .tf-constinfo .constvoterturnout h2 {
+    font-size: 20px;
+    letter-spacing: -0.2px;
+  }
+  .marBot20 {
+    margin-bottom: 10px;
+  }
+
+  .tf-interactive-wrap .tf-candinfo {
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 15px 15px;
+    height: 100%;
+  }
+
+  .candheader {
+    display: grid;
+    grid-template-columns: 42% 58%;
+  }
+
+  .candinfocol {
+    display: flex;
+  }
+  .candinfocol .metacandinfo {
+    width: 60%;
+    order: 1;
+  }
+  .candinfocol .metacandinfo .candrow1 {
+    display: grid;
+    grid-template-columns: 55% 30% 15%;
+    column-gap: 10px;
+  }
+  .candinfocol .metacandinfo .candrow2 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 10px;
+  }
+  .candinfocol .metacandinfo .candrow3 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 10px;
+  }
+
+  .candinfocol .candpic {
+    width: 40%;
+    margin-top: 24px;
+    order: 2;
+  }
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}

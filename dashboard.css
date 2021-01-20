@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.tf-election__wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.tf-election__wrapper .tf-election__header {
+  /* margin: 0 auto 100px auto; */
+  margin: 0 auto 70px auto;
+}
+.tf-election__wrapper .tf-election__header h1 {
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.tf-election__wrapper .tf-election__header h1 span {
+  font-weight: 600;
+  font-size: 36px;
+}
+#partywise-voteshare .bartexts {font-size:11px;}
+.tf-election__wrapper .tf-election__header p {
+  font-size: 14px;
+  color: #999;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+}
+.tf-election__wrapper .tf-election__header p span#lastupdated {
+  font-weight: 400;
+}
+.tf-election__wrapper section {
+  margin-bottom: 100px;
+}
+
+.map-content-box {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 300px;
+}
+.map-content-box h3 {
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  text-align: left;
+}
+.map-content-box h3 span {
+  font-weight: 400;
+  font-size: 12px;
+  background-color: #000;
+  color: #FFFFF0;
+  padding: 2px 5px;
+  vertical-align: bottom;
+}
+.map-content-box .map-content__point {
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+.map-content-box .map-content__point:nth-child(3) {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.map-content-box .map-content__point p {
+  margin-bottom: 15px;
+}
+.map-content-box .map-content__point p span.winorleadcand, .map-content-box .map-content__point p span.winorleadmarg {
+    color: green;
+}
+.map-content-box .map-content__point p span.trailCand {
+    color: maroon;
+}
+.map-content-box .map-content__point .leadingparty {
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+}
+.map-content-box .map-content__point .leadingparty img {
+  width: 80%;
+}
+.map-content-box .map-content__point span:last-child {
+  font-weight: 600;
+  font-size: 21px;
+  color: #000000;
+}
+
+section h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.tf-overallparty__main {
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.tf-maincontent__overallparty .current-leading-party1 img,
+.tf-maincontent__overallparty .current-leading-party2 img {
+  width: 100%;
+}
+
+.tf-maincontent__overallcandidate .tf-maincontent__column h3,
+.tf-maincontent__geographic .tf-maincontent__column h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #999;
+}
+
+.map-content-box h3 {
+  color: #000 !important;
+  font-size: 30px !important;
+  padding-bottom: 5px;
+}
+
+/* current-leading-party */
+
+#current-leading-party .bar {
+  height: 55px;
+  line-height: 55px;
+}
+/*#current-leading-party .bartext {*/
+/*    display: none;*/
+/*}*/
+#current-leading-party .bartext {
+  height: 25px;
+  line-height: 25px;
+  font-size: 11px;
+  opacity: 0;
+}
+#current-leading-party .bartext {
+    padding: 0px 16px 0 10px !important;
+}
+#current-leading-party .Others.bartext {
+    padding: 0px 27px 0 13px !important;
+}
+#current-leading-party .Undecided.bartext {
+    padding: 0px 36px 0 13px !important;
+}
+#education-charts .bar,
+#criminal-charts .bar,
+#netasset-charts .bar,
+#gender-charts .bar,
+#religion-charts .bar {
+  height: 40px;
+  line-height: 40px;
+}
+
+#current-leading-party .bar:first-child {
+  -webkit-border-top-left-radius: 30px;
+  -webkit-border-bottom-left-radius: 30px;
+  -moz-border-radius-topleft: 30px;
+  -moz-border-radius-bottomleft: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+#current-leading-party .bar:last-child {
+  -webkit-border-top-right-radius: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  -moz-border-radius-topright: 30px;
+  -moz-border-radius-bottomright: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+#education-charts .bar:last-child,
+#criminal-charts .bar:last-child,
+#netasset-charts .bar:last-child,
+#religion-charts .bar:last-child,
+#gender-charts .bar:last-child,
+#education-charts .bar:first-child,
+#criminal-charts .bar:first-child,
+#netasset-charts .bar:first-child,
+#religion-charts .bar:first-child,
+#gender-charts .bar:first-child {
+  border-radius: 0;
+}
+.maparea {
+  position: relative;
+  /* padding: 20px; */
+}
+.mapmodel {
+  position: relative;
+  /* padding: 20px; */
+}
+.maparea select {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #000;
+  color: #fff;
+  padding: 2px;
+}
+.tf-maincontent__geographic .tf-maincontent__row.fourcol h3,
+.tf-maincontent__overallcandidate .tf-maincontent__row h3 {
+  text-align: left;
+}
+.tf-maincontent__geographic
+  .tf-maincontent__row.fourcol
+  .tf-maincontent__column,
+.tf-maincontent__overallcandidate .tf-maincontent__row .tf-maincontent__column {
+  padding-right: 20px;
+  border-right: 1px solid #999;
+}
+.tf-maincontent__geographic
+  .tf-maincontent__row.fourcol
+  .tf-maincontent__column:last-child,
+.tf-maincontent__overallcandidate
+  .tf-maincontent__row
+  .tf-maincontent__column:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+#turnout-charts,
+#literacyrate-charts {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 400;
+}
+#turnout-charts span,
+#literacyrate-charts span {
+  font-size: 35px;
+  line-height: 35px;
+}
+
+svg.biharmap path:hover {
+  fill: red;
+}
+svg.biharmap path.active {
+  fill: red;
+}
+
+.d3-tip {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+}
+.legend ul{
+    list-style:none;
+    text-align: center;
+}
+
+.legend ul li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.legend ul li span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+@media (max-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  section h2 {
+    margin-bottom: 25px;
+  }
+
+  .tf-election__wrapper section {
+    margin-bottom: 50px;
+  }
+
+  .tf-overallparty__main {
+    grid-template-columns: 100%;
+  }
+}
+@media (min-width: 801px) and (max-width: 1024px) {
+  .map-content-box .map-content__point .leadingparty img {
+    width: 70% !important;
+  }
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .tf-maincontent__geographic .tf-maincontent__row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+  }
+  .tf-maincontent__geographic .tf-maincontent__row.fourcol {
+    display: grid;
+    /* grid-template-columns: 40% 40% 10% 10%; */
+    grid-template-columns: 33.3% 33.3% 16.6% 16.6%;
+    column-gap: 20px;
+  }
+
+  .tf-maincontent__overallcandidate .tf-maincontent__row {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    column-gap: 20px;
+  }
+
+  /* .tf-maincontent__geographic .asmap {
+    width: 50%;
+  }
+  .tf-maincontent__geographic .map-content-box {
+    width: 50%;
+  }
+  .tf-maincontent__geographic .tf-maincontent__column {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  } */
+  .asmap {
+    width: 100%;
+  }
+
+  .tf-maincontent__geographic .map-content-box .winningcandidate,
+  .tf-maincontent__geographic .map-content-box .trailingcandidate {
+    display: grid;
+    grid-template-columns: 70% 20%;
+  }
+
+  /* .tf-maincontent__overallcandidate .tf-maincontent__column {
+    width: 33.3%;
+  } */
+  .map-content-box .map-content__point span:last-child {
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+    line-height: 30px;
+  }
+  .map-content-box .map-content__point .leadingparty img {
+    width: 50%;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
+@media screen and (max-width: 485px) {
+    .whole_wrap {
+      padding: 0 !important;
+    }
+    #current-leading-party .bartext {
+        font-size: 11px;
+        padding: 0px 46px 0 10px !important;
+    }
+    #current-leading-party .Others.bartext {
+        padding: 0px 36px 0 10px !important;
+    }
+    #current-leading-party .Undecided.bartext {
+        padding: 0px 46px 0 3px !important;
+    }
+    #partywise-voteshare .bartext {
+        padding: 0 10px;
+        font-size: 11px;
+    }
+    #partywise-voteshare .Others.bartext {
+        padding: 0px 30px !important;
+    }
+    #partywise-voteshare .bar {
+        padding: 0px 7px !important;
+        font-size: 13px !important;
+    }
+    .candidates-list {
+        display: block;
+    }
+    section h2 {
+        margin: 11px 0;
+        text-align: center;
+        /* margin-top: 10px; */
+    }
+    #current-leading-party .bar {
+        font-size: 13px !important;
+    }
+    #current-leading-party .bar.LJP {
+        padding: 0 47px 0 9px;
+    }
+    #current-leading-party .bar.Others {
+        padding: 0 40px 0 8px;
+    }
+    #partywise-voteshare .bar:nth-child(3), #partywise-voteshare .LJP.bar {
+        padding: 0px 30px 0 7px!important;
+    }
+  .tf-election__wrapper .tf-election__header h1 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .tf-election__wrapper .tf-election__header h1 span {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .tf-election__wrapper .tf-election__header p {
+    margin: 20px 0 0 0;
+  }
+  .tf-election__wrapper .tf-election__header {
+    margin: 0 auto 40px auto;
+  }
+  .map-content-box h3 {
+    text-align: center;
+    line-height: 19px;
+  }
+  .map-content-box h3 span {
+    /*margin-left: 38%;*/
+    /*margin-right: 38%;*/
+    display: block;
+    width: 60%;
+    margin: 6px auto;
+  }
+  .tf-maincontent__row .fourcol {
+    margin: 20px 0 0 0;
+  }
+  .tf-maincontent__geographic
+    .tf-maincontent__row.fourcol
+    .tf-maincontent__column:first-child,
+  .tf-maincontent__geographic
+    .tf-maincontent__row.fourcol
+    .tf-maincontent__column:nth-child(2),
+  .tf-maincontent__overallcandidate
+    .tf-maincontent__row
+    .tf-maincontent__column {
+    padding-right: 0;
+    border-right: none;
+  }
+  .tf-maincontent__geographic
+    .tf-maincontent__row.fourcol
+    .tf-maincontent__column:nth-child(3) {
+    float: left;
+    padding-left: 5%;
+  }
+  .tf-maincontent__geographic
+    .tf-maincontent__row.fourcol
+    .tf-maincontent__column,
+  .tf-maincontent__overallcandidate
+    .tf-maincontent__row
+    .tf-maincontent__column {
+    margin: 15px 10px;
+  }
+  .tf-maincontent__geographic
+    .tf-maincontent__row.fourcol
+    .tf-maincontent__column:last-child
+    h3 {
+    margin-top: 28px;
+    margin-left: 59%;
+  }
+  #turnout-charts,
+  #literacyrate-charts {
+    font-size: 43px;
+    line-height: 46px;
+    font-weight: 400;
+  }
+  #turnout-charts span,
+  #literacyrate-charts span {
+    font-size: 30px;
+    line-height: 33px;
+  }
+}
